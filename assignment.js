@@ -1,3 +1,5 @@
+// https://github.com/habibullah49/Javascript
+
 //convert kilometer to meter
 
 function kilometerToMeter(kilometer){
@@ -37,7 +39,7 @@ function hotelCost(day){
     return"invalid input";
   }
   
-  if(day<=10){  
+  else if(day<=10){  
     totalcost=(day*100);
   }
   else if(day>10 && day<=20){  
@@ -49,6 +51,7 @@ function hotelCost(day){
  
   return totalcost;  
 }
+
 
 
 
